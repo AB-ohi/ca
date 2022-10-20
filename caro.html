@@ -33,10 +33,42 @@
       bottom: 0;
       left: 0;
     }
+    .d-flex{
+      margin-right: 40px;
+    }
     </style>
     <title>Document</title>
   </head>
   <body>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -94,7 +126,35 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-</div>
+    </div>
+         <section>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-6">
+              <h1>Hotel location</h1>
+              <p>7W28+GJX, Victoria Rd, Tangail</p>
+              <h3>Phone number</h3>
+              <p>
+                <ul>
+                  <li>017653262107</li>
+                  <li>017653262107</li>
+
+                </ul>
+              </p>
+              <h3>G-mail</h3>
+              <p>
+                <ul>
+                  <li><a href="#">cumma@gmail.com</a></li>
+                  <li><a href="#">halum@gmsil.com</a></li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-6">
+              <h1>Map location</h1>
+              <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Hotel%20Prince,%20Tangail&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+          </div>
+         </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
